@@ -11,7 +11,7 @@ The whole notebook runs in about a minute on a laptop.
 ## Run it
 
 ```bash
-git clone <this repo's URL>
+git clone https://github.com/manarai/pbmc-harmony-integration.git
 cd pbmc-harmony-integration
 conda env create -f environment.yml
 conda activate pbmc-integration
