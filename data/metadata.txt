@@ -1,0 +1,6 @@
+sample,tissue,mouse_type,age,sex,mouse_id,serial
+10x_A116,pbmc,SPF,9w,F,52,116
+10x_A117,pbmc,SPF,9w,F,53,117
+10x_A118,pbmc,SPF,9w,F,54,118
+10x_A170,pbmc,SPF,19M,F,1,170
+10x_A172,pbmc,SPF,19M,F,3,172

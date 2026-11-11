@@ -1,0 +1,29 @@
+name: pbmc-integration
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.13
+  - numpy=2.3
+  - pandas=2.3
+  - scipy=1.16
+  - scikit-learn=1.8
+  - matplotlib=3.10
+  - seaborn=0.13
+  - h5py=3.15
+  - numba=0.63
+  - scanpy=1.12.0
+  - umap-learn=0.5.11        # 0.6 breaks scanpy.pp.neighbors (numba typing error)
+  - pynndescent=0.6.0
+  - fast-array-utils=1.3.1
+  - scikit-misc=0.5          # loess for seurat_v3 highly variable genes
+  - anndata=0.12
+  - python-igraph=0.11
+  - leidenalg=0.10
+  - jupyterlab=4.5
+  - ipykernel=7.1
+  - nbconvert=7.16
+  - nbformat=5.10
+  - pip
+  - pip:
+      - harmonypy==2.1.0
